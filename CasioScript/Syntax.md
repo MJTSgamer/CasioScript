@@ -22,7 +22,7 @@
 | `X, Y, z = 1;` | Declares variables `X`, `Y`, and `z` with the value `1` | `1->X`<br/>`X->Y`<br/>`Y->Z` |
 
 #### Variable Modification
-| SYntax       | Description                                     | Compiles to |
+| Syntax       | Description                                     | Compiles to |
 |--------------|-------------------------------------------------|-------------|
 | `X = 1;`     | Sets the value of `x` to `1`                    | `1->X`      |
 | `X = y;`     | Sets the value of `X` to the value of `y`       | `y->X`      |
@@ -31,6 +31,13 @@
 | `X *= Y;`    | Multiplies the value of `X` by `Y`              | `X*Y->X`    |
 | `X /= Y;`    | Divides the value of `X` by `Y`                 | `X/Y->X`    |
 | `X = Y + Z;` | Sets the value of `X` to the sum of `Y` and `Z` | `Y+Z->X`    |
+
+#### Variable List
+| Syntax | Description | Compiles to |
+|--------|-------------|-------------|
+| `X, Y` | `X` and `Y` | `X,Y`       |
+
+
 
 # Loops
 
